@@ -1,0 +1,6 @@
+{
+  "name": "AI Rap Engine",
+  "description": "Analyzes reference lyrics to reverse-engineer their flow, rhythm, and cadence, generating 100% original rap lyrics with matching technical structure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

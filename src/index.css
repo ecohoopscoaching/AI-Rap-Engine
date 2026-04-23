@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-miami-pink: #FF107A;
+  --color-miami-cyan: #0DF0E3;
+  --color-miami-purple: #7510FF;
+  --color-miami-bg: #090212;
+  --color-miami-panel: #160627;
+  --color-miami-panel-border: #2B0D47;
+}
+
+@layer base {
+  body {
+    @apply bg-miami-bg text-white font-sans antialiased min-h-screen overflow-x-hidden text-lg;
+  }
+}
